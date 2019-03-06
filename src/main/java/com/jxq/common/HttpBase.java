@@ -16,6 +16,7 @@ import java.util.concurrent.TimeUnit;
  * @Description: Http基础使用类。
  */
 public class HttpBase {
+    //加个注释
     public static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
     private Retrofit retrofit;
     private String host;
